@@ -13,7 +13,8 @@ const envSchema = z.object({
   R2_IMAGES_BUCKET: z.string().min(1),
   R2_AUDIO_PUBLIC_URL: z.string().url(),
   R2_IMAGES_PUBLIC_URL: z.string().url(),
-  CLIENT_URL: z.string().min(1),
+  CLIENT_URL: z.string().min(1).optional(),
+  CLIENT_URL_NGROK: z.string().min(1).optional(),
 })
 
 const parsed = envSchema.safeParse(process.env)

@@ -9,6 +9,7 @@ const env = require('./config/env')
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:4173',
+  'http://localhost:3000',
   env.CLIENT_URL,
   env.CLIENT_URL_NGROK,
   'https://overplant-retiree-recess.ngrok-free.dev',
@@ -19,7 +20,7 @@ const app = express()
 app.use(helmet({ contentSecurityPolicy: false }))
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (!origin || allowedOrigins.includes(origin) || (origin && origin.includes('ngrok'))) {
       callback(null, true)
     } else {
       callback(new Error('Not allowed by CORS'))
@@ -43,8 +44,8 @@ app.get('/api/health', (req, res) => {
 app.use(errorHandler)
 
 const PORT = env.PORT
-const server = app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
+const server = app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}, accessible on all interfaces (0.0.0.0)`)
 })
 server.timeout = 300000
 server.keepAliveTimeout = 120000
