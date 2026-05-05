@@ -1,0 +1,1 @@
+ALTER TABLE surahs ADD COLUMN IF NOT EXISTS youtube_url TEXT;

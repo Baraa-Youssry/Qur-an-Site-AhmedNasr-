@@ -1,0 +1,10 @@
+keys.md
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+*.log
+backend/migrate.js
+backend/node_modules/
+frontend/node_modules/

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "library": "Audio Library",
+    "clips": "Featured Clips",
+    "about": "About",
+    "contact": "Contact",
+    "azkar": "Adhkar",
+    "admin": "Dashboard"
+  },
+  "home": {
+    "hero_title": "Ahmed Abdelrazek Nasr",
+    "hero_subtitle": "Qur'an Reciter",
+    "hero_cta": "Browse Library",
+    "recent_clips": "Recent Clips",
+    "view_all": "View All"
+  },
+  "library": {
+    "title": "Audio Library",
+    "subtitle": "114 Surahs from the Holy Qur'an",
+    "search": "Search for a Surah...",
+    "filter_all": "All",
+    "filter_makki": "Meccan",
+    "filter_madani": "Medinan",
+    "play": "Play",
+    "download": "Download",
+    "makki": "Meccan",
+    "madani": "Medinan",
+    "ayahs": "ayahs",
+    "surah": "Surah",
+    "no_results": "No results found"
+  },
+  "clips": {
+    "title": "Featured Clips",
+    "subtitle": "Featured recordings from live recitations",
+    "search": "Search clips...",
+    "no_results": "No clips found"
+  },
+  "about": {
+    "title": "About the Reciter",
+    "subtitle": "A journey with the Book of Allah",
+    "timeline": "Timeline"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Follow the reciter on social media",
+    "email_us": "Email Us"
+  },
+  "azkar": {
+    "title": "Muslim Adhkar",
+    "subtitle": "Protect yourself with the remembrance of Allah",
+    "reset_category": "Reset Category",
+    "completed": "Completed"
+  },
+  "player": {
+    "now_playing": "Now Playing",
+    "download": "Download",
+    "save": "Save",
+    "saved": "Saved",
+    "share": "Share",
+    "previous": "Previous",
+    "next": "Next",
+    "copied": "Copied!",
+    "favorites": "Favorites",
+    "recently_played": "Recently Played",
+    "clear_recent": "Clear History",
+    "no_favorites": "No favorites yet",
+    "no_recent": "Nothing played recently",
+    "watch_video": "Watch Video",
+    "watch_recitation": "Watch the recitation video"
+  },
+  "admin": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "login_btn": "Sign In",
+    "dashboard": "Dashboard",
+    "surahs": "Manage Surahs",
+    "clips": "Manage Clips",
+    "settings": "Settings",
+    "logout": "Logout",
+    "upload": "Upload",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "confirm_delete": "Are you sure you want to delete?",
+    "total_surahs": "Total Surahs",
+    "total_clips": "Total Clips",
+    "storage_used": "Storage Used",
+    "forgot_password": "Forgot password?",
+    "reset_password": "Reset Password"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "download": "Download"
+  }
+}

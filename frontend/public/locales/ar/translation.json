@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "library": "المكتبة الصوتية",
+    "clips": "المقاطع المميزة",
+    "about": "نبذة عن القارئ",
+    "contact": "تواصل معنا",
+    "azkar": "الأذكار",
+    "admin": "لوحة التحكم"
+  },
+  "home": {
+    "hero_title": "أحمد عبد الرازق نصر",
+    "hero_subtitle": "قارئ القرآن الكريم",
+    "hero_cta": "تصفح المكتبة",
+    "recent_clips": "أحدث المقاطع",
+    "view_all": "عرض الكل"
+  },
+  "library": {
+    "title": "المكتبة الصوتية",
+    "subtitle": "١١٤ سورة من كتاب الله",
+    "search": "ابحث عن سورة...",
+    "filter_all": "الكل",
+    "filter_makki": "مكية",
+    "filter_madani": "مدنية",
+    "play": "تشغيل",
+    "download": "تحميل",
+    "makki": "مكية",
+    "madani": "مدنية",
+    "ayahs": "آية",
+    "surah": "سورة",
+    "no_results": "لا توجد نتائج"
+  },
+  "clips": {
+    "title": "المقاطع المميزة",
+    "subtitle": "تسجيلات مميزة من القراءات المباشرة",
+    "search": "ابحث في المقاطع...",
+    "no_results": "لم يتم العثور على مقاطع"
+  },
+  "about": {
+    "title": "نبذة عن القارئ",
+    "subtitle": "رحلة مع كتاب الله",
+    "timeline": "المسيرة"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "تابع القارئ على منصات التواصل",
+    "email_us": "راسلنا"
+  },
+  "azkar": {
+    "title": "أذكار المسلم",
+    "subtitle": "حصّن نفسك بذكر الله",
+    "reset_category": "إعادة تعيين",
+    "completed": "تم"
+  },
+  "player": {
+    "now_playing": "جاري التشغيل",
+    "download": "تحميل",
+    "save": "حفظ",
+    "saved": "محفوظ",
+    "share": "مشاركة",
+    "previous": "السابق",
+    "next": "التالي",
+    "copied": "تم النسخ!",
+    "favorites": "المفضلة",
+    "recently_played": "تم تشغيله مؤخرًا",
+    "clear_recent": "مسح السجل",
+    "no_favorites": "لا توجد مفضلات بعد",
+    "no_recent": "لم يتم تشغيل شيء مؤخرًا",
+    "watch_video": "شاهد الفيديو",
+    "watch_recitation": "شاهد فيديو التلاوة"
+  },
+  "admin": {
+    "login": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "login_btn": "دخول",
+    "dashboard": "لوحة التحكم",
+    "surahs": "إدارة السور",
+    "clips": "إدارة المقاطع",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "upload": "رفع",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "cancel": "إلغاء",
+    "confirm_delete": "هل أنت متأكد من الحذف؟",
+    "total_surahs": "إجمالي السور",
+    "total_clips": "إجمالي المقاطع",
+    "storage_used": "المساحة المستخدمة",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "reset_password": "إعادة تعيين كلمة المرور"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "download": "تحميل"
+  }
+}
