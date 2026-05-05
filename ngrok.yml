@@ -1,0 +1,8 @@
+authtoken: YOUR_NGROK_AUTHTOKEN_HERE
+tunnels:
+  frontend:
+    addr: 5173
+    proto: http
+  backend:
+    addr: 4000
+    proto: http
