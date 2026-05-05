@@ -10,6 +10,8 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:4173',
   env.CLIENT_URL,
+  env.CLIENT_URL_NGROK,
+  'https://overplant-retiree-recess.ngrok-free.dev',
 ].filter(Boolean)
 
 const app = express()
