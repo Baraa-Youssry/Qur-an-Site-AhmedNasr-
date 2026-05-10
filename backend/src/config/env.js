@@ -2,7 +2,7 @@ require('dotenv').config()
 const { z } = require('zod')
 
 const envSchema = z.object({
-  PORT: z.coerce.number().default(4000),
+  PORT: z.coerce.number().optional(),
   SUPABASE_URL: z.string().url(),
   SUPABASE_SERVICE_KEY: z.string().min(1),
   R2_ACCOUNT_ID: z.string().min(1),
